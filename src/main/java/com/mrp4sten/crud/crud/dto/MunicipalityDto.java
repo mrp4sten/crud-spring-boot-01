@@ -6,4 +6,5 @@ import lombok.Data;
 public class MunicipalityDto {
     private String id;
     private String municipalityName;
+    private String entityName;
 }

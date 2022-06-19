@@ -6,18 +6,18 @@ import lombok.Data;
 public class ProviderDto {
     private String id;
     private String rfc;
-    private String bussinessName;
+    private String bussinesName;
     private String contactName;
     private String street;
-    private int interiorNumber;
-    private int externalNumber;
+    private Long interiorNumber;
+    private Long externalNumber;
     private String suburb;
     private String location;
     private String entity;
     private String municipality;
     private String country;
-    private int postalCode;
+    private Long postalCode;
     private String email;
-    private int phoneNumber;
+    private Long phoneNumber;
     private String status;
 }
